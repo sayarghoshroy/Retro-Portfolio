@@ -1,0 +1,163 @@
+body
+{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 242, 0);
+}
+
+ul.topnav
+{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  float: left;
+  margin-top: -120px;
+  width: 100%;
+  outline: none;
+}
+
+ul.topnav li
+{
+  margin-left: -40px;
+  margin-right: 0;
+  outline: none;
+}
+
+ul.topnav li a
+{
+  display: block;
+  background-color: black;
+  font-size: 58px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  width: 33.333333333333333333333333333333333333333333333%;
+  outline: none;
+}
+
+ul.topnav li a:hover:not(.future)
+{
+  color: rgb(255, 242, 0);
+  outline: none;
+}
+
+ul.topnav li a.pas
+{
+  font-family: 'Faster One', cursive;
+  font-size: 58.2048px;
+  padding: 14px 14px 16px;
+  outline: none;
+}
+
+ul.topnav li a.future
+{
+  color: rgb(255, 242, 0);
+  font-family: 'Frijole', cursive;
+  font-size: 45.8208px;
+  outline: none;
+}
+
+ul.topnav li a.now
+{
+  font-family: 'Vollkorn SC', serif;
+  padding: 10px 14px 6px;
+  outline: none;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+.wrapper
+{
+  max-width: 100%;
+  margin: 120px 25px 20px 15px;
+}
+
+.wrapper > div
+{
+  border-radius: 5px;
+  background-color: rgb( 233, 171, 88);
+  padding: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.wrapper 
+{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(200px, auto);
+  font-family: 'Exo 2', sans-serif;
+  font-size: 36px;
+}
+div.one
+{
+  grid-column: 1 /4;
+  grid-row: 1;
+  background-color: #333;
+}
+div.two
+{ 
+  grid-column: 1 /4;
+  grid-row: 2 / 4;
+  background-color: #333;
+  height: 870px;
+  outline: none;
+}
+div.three
+{
+  grid-column: 1 /4;
+  grid-row: 4;
+  background-color: #333;
+}
+div.three-half
+{
+  grid-column: 1 /4;
+  grid-row: 5;
+  background-color: #333;
+}
+div.four
+{
+  grid-column: 1 /4;
+  grid-row: 6;
+  background-color: #333;
+}
+div.five
+{
+  grid-column: 1 /4;
+  grid-row: 7;
+  background-color: #333;
+}
+
+.PICTURE
+{
+  height: 90%;
+  width: 100%;
+}
+
+.bun
+{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  align-content: center;
+}
+
+.bun:focus
+{
+  outline: none;
+}
